@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;600;700;800&family=REM&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;600;700;800&family=REM&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&family=REM&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css"
+        integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Logoipsum</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="backround">
+            <img class="bg_1" src="./images/backroundimg1.webp" alt="backround img" />
+            <img style="width: 1263px; margin-top: -10px; margin-left: -77px;" src="./images/backroundimg2.webp"
+                alt="backround img" />
+        </div>
+        <!--                      H E A D E R                                                      -->
+        <header>
+            <div class="box-1">
+                <a href="./index.html">
+                    <img class="header_logo" src="./images/Logo.webp" alt="logo" />
+                </a>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link" href="./index.html" style="margin: 5px;">Home</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="./index.html" style="margin: 5px;">About Us</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="./index.html" style="margin: 5px;">Pricing</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link" href="./index.html" style="margin: 5px;">Contact Us</a>
+                    </li>
+                    <button class="header_btn"><i class="fa-solid fa-circle-half-stroke fa-rotate-180"
+                            style="color: #ffffff; margin-top: 3px;"></i></button>
+                </ul>
+            </div>
+        </header>
+        <!--                           H E R O                                          -->
+        <div>
+            <div class="hero">
+                <div class="hero-list">
+                    <h1 class="hero_text1">Your digital business is in good hands with us!</h1>
+                    <p class="hero_text2">Make your work easier with an integrated ecosystem that lets all departments
+                        work
+                        properly together.</p>
+                    <button class="hero_btn1">Get Started</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="hero_btn2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Watch vedio
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <iframe width="460" height="315" src="https://www.youtube.com/embed/iZ9HIudBfRc"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <img class="hero_img_1" src="./images/MacbookPro.webp" alt="hero img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--                                          S O F T W A R E                        -->
+        <div class="software">
+            <div>
+                <h2 class="software_text1">Software Solutions That Fit Your Needs</h2>
+                <p class="software_text2">The features to boost your productivity</p>
+            </div>
+            <div class="software_box">
+                <div class="software_box_1">
+                    <img class="software_img" src="./images/softwareimg1.webp" alt="Software img1" />
+                    <h3 class="software_text3">Task Management</h3>
+                    <p class="software_text4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                    <a class="software_more" href="index.html">View More</a>
+                </div>
+                <div class="software_box_2">
+                    <img class="software_img" src="./images/softwareimg2.webp" alt="Software img2" />
+                    <h3 class="software_text3">Automation</h3>
+                    <p class="software_text4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                    <a class="software_more" href="index.html">View More</a>
+                </div>
+                <div class="software_box_3">
+                    <img class="software_img" src="./images/softwareimg3.webp" alt="Software img3" />
+                    <h3 class="software_text3">Budgeting Tools</h3>
+                    <p class="software_text4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                    <a class="software_more" href="index.html">View More</a>
+                </div>
+            </div>
+        </div>
+        <!--                           P R O T E C T I O N                           -->
+        <div class="protection">
+            <div class="protection_box_1">
+                <div class="protection_box-1">
+                    <h2 class="protection_text_1">Easy Advance Protection</h2>
+                    <p class="protection_text_2">Use marketing automation to identify hot leads and email your sales
+                        team
+                        telling them to follow up. Nurture and contact leads at the opportune time to maximize.</p>
+                    <button class="protection_btn">Read more</button>
+                </div>
+                <div>
+                    <img class="protection_img1" src="./images/protectionimg1.webp" alt="protection images" />
+                </div>
+            </div>
+            <div class="protection_box_2">
+                <div class="protection_box-2">
+                    <h2 class="protection_text_3">Advance Protection Mode Easy </h2>
+                    <p class="protection_text_4">Use marketing automation to identify hot leads and email your sales
+                        team
+                        telling them to follow up. Nurture and contact leads at the opportune time to maximize.</p>
+                    <button class="protection_btn">Read more</button>
+                </div>
+                <div>
+                    <img class="protection_img2" src="./images/protectionimg2.webp" alt="protection images" />
+                </div>
+            </div>
+        </div>
+        <!--                                        C U S T O M E R S                        -->
+        <div class="customers">
+            <div>
+                <h2 class="customers_text_1">Customer testimonials</h2>
+                <p class="customers_text_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="customers_box">
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                    data-bs-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-block w-100">
+                                <div class="customers_box_1">
+                                    <img class="customers_stars" src="./images/Stars.webp" alt="Stars" />
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in
+                                        eros
+                                        elementum
+                                        tristique. Duis cursus, mi quis viverra ornare."</p>
+                                    <img class="customers_avatar" src="./images/AvatarImage1.webp"
+                                        alt="avatar images" />
+                                    <h5 class="customers_text_3">Courtney Henry</h5>
+                                    <p class="customers_text_4">Johnson & Johnson</p>
+                                </div>
+                                <div class="customers_box_2">
+                                    <img class="customers_stars" src="./images/Stars.webp" alt="Stars" />
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in eros
+                                        elementum
+                                        tristique. Duis cursus, mi quis viverra ornare."</p>
+                                    <div>
+                                        <img class="customers_avatar" src="./images/AvatarImage2.webp"
+                                            alt="avatar images" />
+                                        <h5 class="customers_text_3">Darrell Steward</h5>
+                                        <p class="customers_text_4">American Airlines Group</p>
+                                    </div>
+                                </div>
+                                <div class="customers_box_3">
+                                    <img class="customers_stars" src="./images/Stars.webp" alt="Stars" />
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                                        enim
+                                        in eros
+                                        elementum
+                                        tristique. Duis cursus, mi quis viverra ornare."</p>
+                                    <div>
+                                        <img class="customers_avatar" src="./images/AvatarImage3.webp"
+                                            alt="avatar images" />
+                                        <h5 class="customers_text_3">Brooklyn Simmons</h5>
+                                        <p class="customers_text_4">Bank of America</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <div class="customers_box_1">
+                                    <img class="customers_stars" src="./images/Stars.webp" alt="Stars" />
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in
+                                        eros
+                                        elementum
+                                        tristique. Duis cursus, mi quis viverra ornare."</p>
+                                    <img class="customers_avatar" src="./images/AvatarImage1.webp"
+                                        alt="avatar images" />
+                                    <h5 class="customers_text_3">Courtney Henry</h5>
+                                    <p class="customers_text_4">Johnson & Johnson</p>
+                                </div>
+                                <div class="customers_box_2">
+                                    <img class="customers_stars" src="./images/Stars.webp" alt="Stars" />
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in eros
+                                        elementum
+                                        tristique. Duis cursus, mi quis viverra ornare."</p>
+                                    <div>
+                                        <img class="customers_avatar" src="./images/AvatarImage2.webp"
+                                            alt="avatar images" />
+                                        <h5 class="customers_text_3">Darrell Steward</h5>
+                                        <p class="customers_text_4">American Airlines Group</p>
+                                    </div>
+                                </div>
+                                <div class="customers_box_3">
+                                    <img class="customers_stars" src="./images/Stars.webp" alt="Stars" />
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                                        enim
+                                        in eros
+                                        elementum
+                                        tristique. Duis cursus, mi quis viverra ornare."</p>
+                                    <div>
+                                        <img class="customers_avatar" src="./images/AvatarImage3.webp"
+                                            alt="avatar images" />
+                                        <h5 class="customers_text_3">Brooklyn Simmons</h5>
+                                        <p class="customers_text_4">Bank of America</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <div class="customers_box_1">
+                                    <img class="customers_stars" src="./images/Stars.webp" alt="Stars" />
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in
+                                        eros
+                                        elementum
+                                        tristique. Duis cursus, mi quis viverra ornare."</p>
+                                    <img class="customers_avatar" src="./images/AvatarImage1.webp"
+                                        alt="avatar images" />
+                                    <h5 class="customers_text_3">Courtney Henry</h5>
+                                    <p class="customers_text_4">Johnson & Johnson</p>
+                                </div>
+                                <div class="customers_box_2">
+                                    <img class="customers_stars" src="./images/Stars.webp" alt="Stars" />
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+                                        in eros
+                                        elementum
+                                        tristique. Duis cursus, mi quis viverra ornare."</p>
+                                    <div>
+                                        <img class="customers_avatar" src="./images/AvatarImage2.webp"
+                                            alt="avatar images" />
+                                        <h5 class="customers_text_3">Darrell Steward</h5>
+                                        <p class="customers_text_4">American Airlines Group</p>
+                                    </div>
+                                </div>
+                                <div class="customers_box_3">
+                                    <img class="customers_stars" src="./images/Stars.webp" alt="Stars" />
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                                        enim
+                                        in eros
+                                        elementum
+                                        tristique. Duis cursus, mi quis viverra ornare."</p>
+                                    <div>
+                                        <img class="customers_avatar" src="./images/AvatarImage3.webp"
+                                            alt="avatar images" />
+                                        <h5 class="customers_text_3">Brooklyn Simmons</h5>
+                                        <p class="customers_text_4">Bank of America</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev rounded-circle" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next rounded-circle" type="button"
+                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--                                       P R I C I N G                                       -->
+    <div class="pricing">
+        <div>
+            <h1 class="pricing_text_1">Simple and flexible pricing</h1>
+            <p class="pricing_text_2">Start with Support and build your own custom solution or choose The Suite</p>
+        </div>
+        <div class="pricing_box_1">
+            <div class="pricing_box1">
+                <h5>Basic plan</h5>
+                <h4>$19/mo</h4>
+                <p>or $199 yearly</p>
+            </div>
+            <div class="pricing_box2">
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Unlimited members</p>
+                </div>
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Unlimited feedback</p>
+                </div>
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Weekly team Feedback Friday</p>
+                </div>
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Custom Kudos +9 illustration</p>
+                </div>
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Team feedback history</p>
+                </div>
+            </div>
+            <button class="pricing_btn">Get started</button>
+        </div>
+        <div class="pricing_box_2">
+            <div class="pricing_box1">
+                <h5>Business plan</h5>
+                <h4>$29/mo</h4>
+                <p>or $299 yearly</p>
+            </div>
+            <div class="pricing_box2">
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Unlimited members</p>
+                </div>
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Unlimited feedback</p>
+                </div>
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Weekly team Feedback Friday</p>
+                </div>
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Team feedback history</p>
+                </div>
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Slack integration</p>
+                </div>
+            </div>
+            <button class="pricing_btn">Get started</button>
+        </div>
+        <div class="pricing_box_3">
+            <div class="pricing_box1">
+                <h5>Enterprise plan</h5>
+                <h4>$49/mo</h4>
+                <p>or $499 yearly</p>
+            </div>
+            <div class="pricing_box2">
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Unlimited members</p>
+                </div>
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Unlimited feedback</p>
+                </div>
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Weekly team Feedback Friday</p>
+                </div>
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Team feedback history (30 items)</p>
+                </div>
+                <div>
+                    <img class="pricing_check" src="./images/Check.webp" alt="Check" />
+                    <p class="pricing_text_3">Personal feedback history (6 items)</p>
+                </div>
+            </div>
+            <button class="pricing_btn">Get started</button>
+        </div>
+    </div>
+    <!--                                       C O N T A C T                                       -->
+    <div class="contact">
+        <h1 class="contact_text_1">Get started a 15-days free trial</h1>
+        <p class="contact_text_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim
+            in eros elementum tristique.</p>
+        <input class="contact_input" type="email" placeholder="Enter your email" />
+        <button class="contact_btn">Sign Up</button>
+        <p class="contact_text_3">By clicking Sign Up you're confirming that you agree with our Terms and
+            Conditions.</p>
+    </div>
+    <!--                                       N E W S                                       -->
+    <div class="news">
+        <div class="news_header">
+            <h1 class="news_text_1">Recent News</h1>
+            <p class="news_text_2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="news_btn">View all</button>
+        </div>
+        <div>
+            <div class="news_box_1">
+                <img class="news_img" src="./images/news1.webp" alt="news_img_1" />
+                <div class="news_box">
+                    <div class="news_box1">
+                        <p class="news_text_3">Social media</p>
+                        <p class="news_text_4">5 min read</p>
+                    </div>
+                    <p class="news_text_5">Our Favorite Productive Thing Is SaaSup</p>
+                    <p class="news_text_6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        varius enim in eros.</p>
+                </div>
+                <div class="news_link">
+                    <a class="news_link1" href="index.html">Read more ></a>
+                </div>
+            </div>
+            <div class="news_box_2">
+                <img class="news_img" src="./images/news2.webp" alt="news_img_2" />
+                <div class="news_box">
+                    <div class="news_box2">
+                        <p class="news_text_7">Productiva</p>
+                        <p class="news_text_4">5 min read</p>
+                    </div>
+                    <p class="news_text_5">Young Startups With SaaSup In Full Throttle</p>
+                    <p class="news_text_6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        varius enim in eros.</p>
+                </div>
+                <div class="news_link">
+                    <a class="news_link1" href="index.html">Read more ></a>
+                </div>
+            </div>
+            <div class="news_box_3">
+                <img class="news_img" src="./images/news3.webp" alt="news_img_3" />
+                <div class="news_box">
+                    <div>
+                        <p class="news_text_8">Category</p>
+                        <p class="news_text_4">5 min read</p>
+                    </div>
+                    <p class="news_text_5">The perfect integration for all real time a reality services</p>
+                    <p class="news_text_6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        varius enim in eros.</p>
+                </div>
+                <div class="news_link">
+                    <a class="news_link1" href="index.html">Read more ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--                                       F O O T E R                                       -->
+    <div class="footer">
+        <div class="footer_box_1">
+            <div class="footer_box1">
+                <img class="footer_img" src="./images/Logo.webp" alt="logo" />
+                <div>
+                    <a class="footer_link" href="index.html">Home</a>
+                    <a class="footer_link" href="index.html">About Us</a>
+                    <a class="footer_link" href="index.html">Pricing</a>
+                    <a class="footer_link" href="index.html">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer_box2">
+                <p class="footer_text_1">Subscribe</p>
+                <input class="footer_input" placeholder="Enter your email" type="email" />
+                <button class="footer_btn">Subscribe</button>
+                <p class="footer_text_2">By subscribing you agree to with our <a class="footer_link_1"
+                        href="index.html">Privacy Policy</a></p>
+            </div>
+        </div>
+        <div>
+            <img class="footer_divider" src="./images/Divider.webp" alt="Divider" />
+        </div>
+        <div class="footer_box_2">
+            <div>
+                <a class="footer_link_2" href="index.html">Privacy Policy</a>
+                <a class="footer_link_2" href="index.html">Terms of Service</a>
+                <a class="footer_link_2" href="index.html">Cookies Settings</a>
+            </div>
+            <div>
+                <p class="footer_text_3">2022 airdokan. All right reserved.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
